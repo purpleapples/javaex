@@ -26,7 +26,6 @@ public class ScannerEx {
 				System.out.printf("%s - %.2f, %.2f %n", name, height, weight);
 				scanner.nextLine();
 			}
-			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
