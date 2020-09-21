@@ -9,7 +9,7 @@ public class ListEx {
 
 	public static void main(String[] args) {
 //		List<String> lst = new LinkedList();		
-		List<String> lst = new ArrayList();
+		List<String> lst = new ArrayList<>();
 		listTest(lst);
 	}
 

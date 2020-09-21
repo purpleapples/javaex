@@ -12,9 +12,12 @@ public class WrapperEx {
 			// 타 데이터 타입을 변환
 			Integer i2 = Integer.valueOf("2020"); // String -> Integer 객체로 변환
 			// 주의 : 넘어가는 인수의 형태는 해당 타입으로 전환 가능한 형태여야 한다.
+			System.out.println(i2);
 			
 			// 자동 박싱 지원
 			Integer i3 = 10; // Integer i3 = Integer.valueOf(10)
+			
+			System.out.println(i3);
 			
 			// parse 계열 method : 문자열을 잉요해서 해당 type으로 변환
 			System.out.println(Integer.parseInt("-123"));
